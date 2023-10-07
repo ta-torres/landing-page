@@ -5,7 +5,6 @@ html {
 body {
 	height: 100vh;
 	margin: 0;
-	overflow: hidden;
 	
 	display: flex;
 	flex-direction: column;
@@ -16,7 +15,6 @@ body {
 	padding: 10px 150px 0px;
 
 	display: flex;
-	justify-content: space-between;
 }
 
 .logo {
@@ -30,7 +28,7 @@ body {
 .right-links {
 	font-size: 18px;
 	display: flex;
-	justify-content: space-between;
+	margin-left: auto;
 }
 
 a {
