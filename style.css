@@ -191,3 +191,16 @@ button.sign-up-button {
 .sign-items {
 	flex: 1;
 }
+
+.footer {
+	background: #1f2937;
+	padding: 0px 150px;
+	font-size: 18px;
+    color: #f9faf8;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
