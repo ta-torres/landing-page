@@ -42,3 +42,61 @@ ul {
   padding: 0;
   gap: 18px;
 }
+
+button {
+	cursor: pointer;
+	padding: 6px 32px;
+	border-radius: 8px;
+	border-color: #e5e7eb;
+}
+
+button.sign-up-button {
+	background: #3882f6;
+	color: #f9faf8;
+	font-size: 18px;
+	font-weight: bold;
+
+	width: 150px;
+}
+
+.hero-container {
+	background: #1f2937;
+	padding: 125px 150px 125px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.hero-section {
+	flex-basis: 500px;
+}
+
+.hero-header {
+	font-size: 48px;
+	font-weight: 600;
+	color: #f9faf8;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.subtext {
+	font-size: 18px;
+	color: #e5e7eb;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.hero-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-image img {
+	background: #666666;
+	width: 500px;
+	height: 250px;
+}
