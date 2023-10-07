@@ -160,3 +160,34 @@ button.sign-up-button {
 	display: flex;
 	justify-content: right;
 }
+
+.sign-container {
+	background: #3882f6;
+	color: #e5e7eb;
+	
+	display: flex;
+	align-items: center;
+	align-self: center;
+	flex-wrap: wrap;
+
+	margin: 50px 250px;
+	padding: 25px 100px;
+	border-radius: 10px;
+}
+
+.sign-up-alert {
+	margin-right: 20px;	
+}
+
+.sign-up-alert h1 {
+	margin: 0;
+	font-size: 20px;
+}
+
+.sign-up-alert p {
+	margin: 10px 0;
+}
+
+.sign-items {
+	flex: 1;
+}
