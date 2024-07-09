@@ -1,25 +1,29 @@
-html {
-    font-family: Roboto, sans-serif;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	height: 100vh;
-	margin: 0;
-	
+	font-family: Roboto, sans-serif;
+
 	display: flex;
 	flex-direction: column;
 }
 
 .header {
-    background: #1f2937;
+	background: #1f2937;
 	padding: 10px 150px 0px;
 
 	display: flex;
 }
 
 .logo {
-    font-size: 24px;
-    color: #f9faf8;
+	font-size: 24px;
+	color: #f9faf8;
 
 	display: flex;
 	justify-content: space-between;
@@ -32,15 +36,15 @@ body {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: #e5e7eb;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  gap: 18px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 15px;
 }
 
 button {
@@ -121,7 +125,7 @@ button.sign-up-button {
 	margin-bottom: 100px;
 }
 
-.photo-grid-container div{
+.photo-grid-container div {
 	width: 150px;
 }
 
@@ -156,7 +160,7 @@ button.sign-up-button {
 .quote b {
 	font-size: 25px;
 	margin-top: 10px;
-	
+
 	display: flex;
 	justify-content: right;
 }
@@ -164,7 +168,7 @@ button.sign-up-button {
 .sign-container {
 	background: #3882f6;
 	color: #e5e7eb;
-	
+
 	display: flex;
 	align-items: center;
 	align-self: center;
@@ -176,7 +180,7 @@ button.sign-up-button {
 }
 
 .sign-up-alert {
-	margin-right: 20px;	
+	margin-right: 20px;
 }
 
 .sign-up-alert h1 {
@@ -194,9 +198,9 @@ button.sign-up-button {
 
 .footer {
 	background: #1f2937;
-	padding: 0px 150px;
+	padding: 25px 150px;
 	font-size: 18px;
-    color: #f9faf8;
+	color: #f9faf8;
 }
 
 .flex-center {
